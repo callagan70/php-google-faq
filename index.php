@@ -41,10 +41,10 @@ $faqs = [
 foreach ($faqs as $faq){
     echo "<div>";
     echo "<h2>" . $faq['question'] . "</h2>";
-    echo "<p>" . $faq['aswer'] .  "</p>";
-    echo "</div>"
+    echo "<p>" . $faq['answer'] .  "</p>";
+    echo "</div>";
 
-}
+};
 
 ?>
 
