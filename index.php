@@ -30,7 +30,7 @@ $faqs = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google Faq</title>
 </head>
 <body>
 
@@ -38,10 +38,13 @@ $faqs = [
 
 <?php
 
+foreach ($faqs as $faq){
+    echo "<div>";
+    echo "<h2>" . $faq['question'] . "</h2>";
+    echo "<p>" . $faq['aswer'] .  "</p>";
+    echo "</div>"
 
-
-
-
+}
 
 ?>
 
@@ -51,10 +54,6 @@ $faqs = [
 
 </body>
 </html>
-
-
-
-
 
 
 
